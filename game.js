@@ -1,39 +1,5 @@
-var buttons = [];
-var beast;
-var player = [];
-var diss;
-var msgText;
-var foodItem;
-
 var canvW, canvH;
-
-var healthBarBeast, healthBarPlayer;
-var energyBarBeast, energyBarPlayer;
-var foodBarPlayer = [], foodBarBeast = [];
-
-var scores = [];
-var usernames = [];
-
-var finishFade;
-var finishBox = [];
-var fbX, fbY;
-
-var myUsername;
-var loggedIn = false;
-
-var turn = 0;
-var healthBeast = 100, healthPlayer = 100;
-var energyBeast = 100, energyPlayer = 100;
-var score = 0;
-var scoreMultiplier = 1;
-
-var gameData = [];
-var otherData = [];
-
-var customizing = false;
-
 var canvas;
-var loggingIn = false;
 
 waitForElement("#container", function() {
 	Start();
