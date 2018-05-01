@@ -20,8 +20,6 @@ window.addEventListener('load', function() {
 	container = document.createElement("div");
 	container.id = "container";
 	document.body.appendChild(container);
-	var ad = document.querySelector('[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website_christian-kosman&utm_content=footer_img"]').parentNode;
-	ad.parentNode.removeChild(ad);
 	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		function reorient(e) {
 			var portrait = (window.orientation % 180 == 0);
@@ -29,8 +27,6 @@ window.addEventListener('load', function() {
 			$("body > div").css("-webkit-transform-origin", "left top");
 			$("body > div").css("-webkit-transition", "all 1s ease-in-out");
 		}
-		//window.onorientationchange = reorient;
-		//window.setTimeout(reorient, 0);
 	}
 	var scripts = document.getElementsByTagName("script");
 	for(var i = 0; i < scripts.length; i++) {
