@@ -24,7 +24,10 @@ function Start() {
 }
 
 function Update() {
+	// Code goes under here
 	
+	// --------------------
+	drawCanvas();
 }
 
 
