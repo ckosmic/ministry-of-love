@@ -50,7 +50,7 @@ function Start() {
 	ctx.msImageSmoothingEnabled = false;
 	ctx.imageSmoothingEnabled = false;
 	
-	new Text("The Beast", 20, 45, "left", "12", "black", 1);
+	new Text("The Beast", 20, 45, "left", "12", "white", 1);
 	
 	setInterval(function() {
 		Update();
