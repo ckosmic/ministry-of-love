@@ -113,7 +113,7 @@ function Text(text, x, y, align, fontSize, color, weight) {
 
 function Picture(path, x, y) {
 	this.type = "picture";
-	this.path = gameRoot + "/images/" + path;
+	this.path = gameRoot + path;
 	this.x = x;
 	this.y = y;
 	this.img = new Image();
