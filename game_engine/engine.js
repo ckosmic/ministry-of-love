@@ -175,7 +175,7 @@ function Sprite(x, y) {
 	this.x = x;
 	this.y = y;
 	this.costumeName = "spriteplaceholder.png";
-	this.path = engineRoot + "images/" + this.costumeName;
+	this.path = engineRoot + this.costumeName;
 	var imgObject = new Image();
 	imgObject.src = this.path;
 	this.costume = imgObject;
@@ -186,7 +186,7 @@ function Sprite(x, y) {
 	this.layer = getTotalObjects();
 	this.setCostume = function(path) {
 		this.costumeName = path;
-		this.path = gameRoot + "/images/" + this.costumeName;
+		this.path = gameRoot + this.costumeName;
 		var newImgObject = new Image();
 		newImgObject.src = this.path;
 		this.costume = newImgObject;
