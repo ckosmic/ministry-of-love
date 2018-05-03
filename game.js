@@ -20,7 +20,7 @@ function Start() {
 	//new Text("The Beast", 20, 45, "left", "12", "white", 1);
 	
 	textBox = new Sprite(0,0);
-	textBox.setCostume("text-box.png");
+	textBox.setCostume("ministry-of-love/game_engine/images/text-box.png");
 	
 	setInterval(function() {
 		Update();
