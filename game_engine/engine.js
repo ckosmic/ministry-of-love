@@ -119,7 +119,7 @@ function Picture(path, x, y) {
 	this.img = new Image();
 	var imgW, imgH;
 	this.img.addEventListener("load", function() {
-		imgW = this.naturalWidth;
+		imgW = this.naturalWidth; 
 		imgH = this.naturalheight;
 	});
 	this.img.src = this.path;
